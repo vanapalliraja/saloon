@@ -5,7 +5,7 @@ import './First.css'
 const First = () => {
     return (
     <div className='main'>
-        <img src={image1} alt='image' className='main-image' />
+        <img src={image1} alt='main-image' className='main-image'  />
         <div className='gallery-content'>
             <h2 className='gallery'>GALLERY</h2>
             <p className='big'>Best Hair Styles</p>
