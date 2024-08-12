@@ -1,0 +1,43 @@
+.main{
+    margin: 0;
+}
+.main-image{
+    width: 100%;
+    height: 100vh;
+}
+.gallery-content{
+    color: #0A090C;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    text-align: center;
+}
+.gallery-content .big{
+    font-size: 56px;
+    color: #f150bf;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.gallery-content .small{
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+@media screen and (max-width: 1024px) and (min-width:300px) {
+    .main-image{
+        height:50vh;
+    }
+    .gallery-content{
+        position: absolute;
+        top: 10%;
+        left:2%;
+    }
+    .gallery-content .big{
+        font-size: 20px;
+    }
+    .gallery-content .small{
+        font-size: 15px;
+    }
+    .gallery{
+        font-size: 15px;
+    }
+}
